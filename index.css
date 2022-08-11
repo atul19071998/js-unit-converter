@@ -1,0 +1,69 @@
+/* styking starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* styling to container */
+.container {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url("wall.jpg ");
+
+  object-fit: contain;
+  /* background-color: chocolate; */
+}
+/* styling to box class */
+.box {
+  width: 30%;
+  height: 50%;
+  margin-top: 70px;
+  margin-left: 150px;
+  border: 2px solid rgb(10, 10, 62);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+/* styling to header */
+header {
+  border-bottom: 2px solid grey;
+}
+/* styling to header inside heading */
+header h2 {
+  color: white;
+}
+/* styling to input section */
+.input-section {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 200px;
+}
+/* styling to input section inside text */
+.input-section input[type="text"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+/* styling to button inside a submit section */
+.submit-section button {
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  margin: 20px;
+}
+/* styling to button inside a submit section on hover */
+.submit-section button:hover {
+  background-color: rgb(246, 194, 117);
+  font-size: 15px;
+}
+/* styling  ends here */
